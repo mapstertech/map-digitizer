@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import '../css/Canvas.css';
-import Jimp from 'jimp/browser/lib/jimp';
+// import Jimp from 'jimp/browser/lib/jimp';
 import $ from 'jquery';
 
 import { saveCanvas } from '../actions/index';
