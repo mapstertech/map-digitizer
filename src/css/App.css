@@ -1,0 +1,56 @@
+/* interface */
+/* .navbar {
+  position: absolute;
+  background: rgba(255,255,255,0.8);
+  z-index: 1000;
+} */
+
+nav {
+  float: left;
+  position: absolute;
+  z-index: 10000;
+  box-shadow: 1px 1px 2px gray;
+}
+
+#map {
+  width: 100%;
+  /* margin-top:-80px; */
+}
+.mapbox-draw-button {
+  height: 30px;
+  width: 30px;
+}
+
+.main-dropzone {
+  position: absolute;
+  z-index: 10;
+  margin: 20px;
+  border-radius: 20px;
+  background: rgba(255,255,255,0.3);
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  border: thick #ccc dashed;
+  text-align: center;
+  transition: 0.5s;
+}
+.main-dropzone:hover {
+  cursor: pointer;
+  border: thick #000 dashed;
+  background: rgba(255,255,255,0.7);
+}
+.main-dropzone .fileUpload {
+  box-shadow: 1px 1px 2px gray;
+  font-size: 20px;
+}
+.main-dropzone .fileUpload:hover {
+  background: #333;
+}
+.main-dropzone .demo-box {
+  margin-top: 10px;
+  /* text-shadow: 3px 3px 3px #fff; */
+}
+.main-dropzone .demo-box a {
+  background: white;
+  box-shadow: 1px 1px 2px gray;
+}

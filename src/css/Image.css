@@ -1,0 +1,49 @@
+.editing-image {
+  position: absolute;
+  /* margin-left: 25%;
+  margin-top:100px; */
+  /* width: 50%; */
+  z-index: 1000;
+  max-height: 300px;
+}
+.editing-image img {
+  width: auto;
+  /* height: 100%; */
+  overflow: scroll;
+  opacity: 0.8;
+}
+.editing-image .edit-tag {
+  background: rgba(255,255,255,1);
+  border-radius: 20px;
+  padding: 5px 10px;
+  box-shadow: 1px 1px 2px gray;
+  z-index: 100;
+  cursor: pointer;
+}
+.editing-image .edit-tag:hover {
+  background: rgba(255,255,255,0.6);
+}
+.editing-image .edit-tag.edit-rotate {
+  position: absolute;
+  margin-right:-10px;
+  top:60%;
+  margin-top:-17px;
+  right:0;
+}
+.editing-image .edit-tag.edit-resize {
+  position: absolute;
+  margin-right:-10px;
+  margin-top:-10px;
+  right: 0;
+}
+.editing-image .edit-tag.edit-skewX {
+  position: absolute;
+  left:50%;
+  margin-left:-34px;
+  margin-top:-10px;
+}
+.editing-image .edit-tag.edit-skewY {
+  position: absolute;
+  top:60%;
+  margin-left:-10px;
+}

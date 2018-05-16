@@ -1,0 +1,66 @@
+.fileUpload {
+  border-style: dashed;
+  border-color: gray;
+}
+#image_editor {
+  position: absolute;
+  z-index: 1000;
+  width: 50%;
+  left: 25%;
+  margin: 0 auto;
+  margin-top:70px;
+  pointer-events: none;
+  max-height: 60%;
+}
+.modaljs-wrapper {
+  pointer-events: none;
+}
+.overlay {
+  position: absolute;
+  z-index: 1000;
+  margin-top:124px;
+  width: 140px;
+  padding: 20px 10px;
+  text-align:center;
+  background: #f8f8f8;
+  /* border-top: grey solid thin; */
+  box-shadow: 1px 1px 2px gray;
+}
+.overlay .drawing-tools {
+  font-size: 10px;
+  margin-left: 20px;
+}
+.overlay div {
+  /* display: inline-block; */
+}
+.overlay i {
+  padding: 7px 5px;
+}
+
+.editor-tools {
+  transition: opacity 2s ease-in;
+}
+
+.editor-tools .uk-button {
+  margin: 0;
+}
+
+.editor-tools .opacity-slider {
+  text-align: left;
+  margin: 7px;
+  margin-bottom: 15px;
+}
+.editor-tools .opacity-slider div {
+  display: inline-block;
+}
+.editor-tools .opacity-slider .rc-slider {
+  width: 50%;
+  margin-left: 10px;
+  padding-top: 8px;
+}
+
+.editor-tools .drawing-tools {
+  margin-left: -10px;
+  margin-top: 15px;
+  margin-right: -10px;
+}

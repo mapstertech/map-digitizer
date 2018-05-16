@@ -1,0 +1,26 @@
+.geojson-container {
+  width: 28%;
+  padding: 1%;
+  right: 0;
+  z-index: 10000;
+  background: white;
+  position: absolute;
+  transition: 0.3s;
+  float: right;
+  box-shadow: 1px 1px 5px gray;
+}
+.geojson-button {
+  margin-left:-40%;
+  background:white;
+  position: absolute;
+}
+.geojson-button:hover {
+  background: #eee;
+}
+.geojson-button:focus {
+  background: white;
+}
+.geojson-area {
+  overflow-x: scroll;
+  height: 100%;
+}

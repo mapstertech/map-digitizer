@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  transition: 0.5s;
+}
+a {
+  color: #4EA0B0;
+}
+.rancho {
+  font-family: 'Rancho', cursive;
+}
+.open-sans {
+  font-family: 'Open Sans', sans-serif;
+}
+/* navbar */
+.mapster-box:hover {
+  opacity: 0.8;
+}
+.mapster-box .logo {
+  width: 30px;
+  height: auto;
+  margin-top:-10px;
+}
+.mapster-box .logo-text {
+  color : #304a40;
+  text-transform: none;
+  margin-left: 10px;
+  font-size: 35px;
+  display:inline;
+}
+.subtitle {
+  margin-top: -10px;
+  padding: 0px 10px 5px;
+  /* border-bottom: #eee thin solid; */
+}
+.uk-navbar-nav > li {
+  padding-bottom: 10px;
+}
+.uk-navbar-nav > li > a.sub-links {
+  padding: 0px 10px;
+  font-size: 12px;
+  color: #4EA0B0;
+  text-align: left;
+  justify-content: left;
+  height: auto;
+  text-transform: none;
+}
