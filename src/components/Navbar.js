@@ -1,6 +1,6 @@
 import { connect } from 'react-redux'
 import React, { Component } from 'react';
-import mapsterLogo from '../assets/img/mapster_logo.png';
+import mapsterLogo from '../assets/img/mapster.png';
 
 class NavbarComponent extends Component {
 
@@ -12,11 +12,11 @@ class NavbarComponent extends Component {
                   <li className="uk-active">
                     <a target="_blank" href="index.html">
                       <div className="mapster-box">
-                        <img className="logo" src={mapsterLogo} /><strong className="rancho logo-text">Mapster</strong>
+                        <img className="logo" src={mapsterLogo} />
                       </div>
                     </a>
-                    <div className="subtitle">Map Digitizer Tool</div>
-                    <a target="_blank" href="http://mapster.me/map-digitizer-how-to-use/" className="sub-links">How to use</a>
+                    <div className="subtitle"><strong>Map Digitizer</strong></div>
+                    <a href="#how-to-use" className="sub-links">How to use</a>
                   </li>
               </ul>
           </div>

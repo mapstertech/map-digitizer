@@ -196,9 +196,24 @@ class App extends Component {
         <div id="map" style={{height:window.innerHeight}}></div>
         <hr />
         <div className="uk-container">
-          <h2>Mapster Map Digitizer Tool</h2>
-          <p>Welcome to the beta version of this tool. It is geared towards allowing an
+          <a name="how-to-use"></a><h2>Mapster Map Digitizer Tool</h2>
+          <p>Welcome to the beta version of this tool! It is geared towards allowing an
           easy conversion between map images and an editable geoJSON.</p>
+          <h4>How to use</h4>
+          <p>First, you need a picture or image of the map you are trying to digitize. This could be an image like this one,
+          or maybe even a map of Game of Thrones. Something to turn into a real map with coordinates!</p>
+          <ol>
+            <li>Drag your image or click the center button to add the image</li>
+            <li>The image will appear in the middle of the map with rotation/resize handles around it</li>
+            <li>You can adjust the transparency of the image</li>
+            <li>Drag and pan and zoom around the map until you find the place on Earth your image represents</li>
+            <li>Adjust the map and your image until it is placed at just the right size</li>
+            <li>"Pin" the image to the map</li>
+            <li>You can now click the buttons on the left-hand side to draw points or lines on the map</li>
+            <li>A geoJSON will be produced on the right-hand side of the page for you to use in your applications!</li>
+          </ol>
+          <hr />
+          <h4>Features</h4>
           <p>You are able to:</p>
           <ul>
             <li>Upload an image</li>
@@ -214,7 +229,6 @@ class App extends Component {
             <li>Ability to move between different map projections</li>
             <li>Automatic digitization</li>
           </ul>
-          <p>Mapster is also working on a larger interactive map editor.</p>
         </div>
         <hr />
       </div>

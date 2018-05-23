@@ -18,19 +18,14 @@ a {
   opacity: 0.8;
 }
 .mapster-box .logo {
-  width: 30px;
+  width: 100px;
   height: auto;
-  margin-top:-10px;
-}
-.mapster-box .logo-text {
-  color : #304a40;
-  text-transform: none;
-  margin-left: 10px;
-  font-size: 35px;
-  display:inline;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 .subtitle {
-  margin-top: -10px;
+  text-align: center;
+  margin-top: 10px;
   padding: 0px 10px 5px;
   /* border-bottom: #eee thin solid; */
 }
@@ -41,8 +36,8 @@ a {
   padding: 0px 10px;
   font-size: 12px;
   color: #4EA0B0;
-  text-align: left;
-  justify-content: left;
+  text-align: center;
+  justify-content: center;
   height: auto;
   text-transform: none;
 }
