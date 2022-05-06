@@ -4,6 +4,8 @@ A lot of times, you need to turn data from an image into real shapes. There are 
 
 This was originally used a lot in Native Land when we had to digitize a lot of images of old maps into a digital format. This uses Mercator projection by default.
 
+[Use the tool here](https://mapstertech.github.io/map-digitizer/).
+
 ### How to use
 
 To use this, just drag an image onto the map, position it by zooming in and out, dragging the handle on the image to scale and rotate it. Then press the "Pin to Map" button. Adjust the opacity as needed.
