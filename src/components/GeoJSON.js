@@ -47,7 +47,7 @@ class GeoJSONComponent extends Component {
         <button onClick={() => this.setState({geoJSON:!this.state.geoJSON})} className="geojson-button uk-button uk-button-default uk-button-small">GeoJSON <i className="fa fa-code" /></button>
         {this.props.canvas&&isJSON(this.props.geoJSON)&&JSON.parse(this.props.geoJSON).length>0 ?
           <div style={{marginBottom:'10px'}}>
-            <button onClick={this.signup.bind(this)} className="uk-button uk-button-default uk-button-secondary">Edit <i className="fa fa-save" /></button>
+            {/* <button onClick={this.signup.bind(this)} className="uk-button uk-button-default uk-button-secondary">Edit <i className="fa fa-save" /></button> */}
             <button onClick={this.download.bind(this)} style={{float:'right'}} className="uk-button uk-button-default uk-button-default">Download <i className="fa fa-download" /></button>
           </div>
         : false}

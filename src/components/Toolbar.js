@@ -129,7 +129,7 @@ class Toolbar extends Component {
                   height: '20px',
                   background: 'rgba('+this.state.digitizerColor[0]+','+this.state.digitizerColor[1]+','+this.state.digitizerColor[2]+','+this.state.digitizerColor[3]+')'
                 }}></div>
-                <h4>Auto-digitize</h4>
+                {/* <h4>Auto-digitize</h4>
                 <p>If your map has colored borders or points, we can digitize them automatically.</p>
                 <p>Pick the right color from your map and press auto-digitize.</p>
                 <div onClick={this.pickColor.bind(this)} className="uk-button uk-button-small" style={{marginTop:'15px'}}>
@@ -137,7 +137,7 @@ class Toolbar extends Component {
                 </div>
                 <div onClick={this.autoDigitize.bind(this)} className="uk-button uk-button-small" style={{marginTop:'15px'}}>
                   Auto-digitize
-                </div>
+                </div> */}
               </div>
             : false }
 
